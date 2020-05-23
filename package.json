@@ -1,0 +1,19 @@
+{
+  "name": "web3.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --experimental-top-level-await index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "web3": "^1.2.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
