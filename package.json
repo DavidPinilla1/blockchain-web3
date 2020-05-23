@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon --experimental-top-level-await index.js"
+    "dev": "nodemon --experimental-top-level-await  --experimental-json-modules index.js"
   },
   "keywords": [],
   "author": "",
