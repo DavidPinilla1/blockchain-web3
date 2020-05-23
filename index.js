@@ -14,6 +14,5 @@ const BNBContract = new web3.eth.Contract(abiBNBContract,BNBSCAddress);
 
 // getting some data on the way
 const name = await BNBContract.methods.name().call();
-
-console.log(name)
-
+const totalSupply = await BNBContract.methods.totalSupply().call()
+console.log(name,totalSupply)
